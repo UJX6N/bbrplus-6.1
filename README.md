@@ -43,26 +43,26 @@ in the `/etc/sysctl.conf` file. &nbsp;&nbsp; ( `fq` is the only recommended pack
 
 ### 2) download officaial linux kernel
         say 6.2.1       
-            wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.1.tar.xz
+            wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.18.tar.xz
 
 <br/>
 <br/>
 
 ### 3) extract the tarball & cd extracted directory
-        tar xvf linux-6.2.1.tar.xz && cd linux-6.2.1
+        tar xvf linux-6.1.18.tar.xz && cd linux-6.1.18
 
 <br/>
 <br/>
 
 ### 4) copy convert patch to extracted kernel directory
         something like
-            cp ../convert_official_linux-6.0.x_src_to_bbrplus.patch .
+            cp ../convert_official_linux-6.1.x_src_to_bbrplus.patch .
 
 <br/>
 <br/>
 
 ### 5) do the patch job
-        patch -p1 < convert_official_linux-6.0.x_src_to_bbrplus.patch
+        patch -p1 < convert_official_linux-6.1.x_src_to_bbrplus.patch
 
 <br/>
 <br/>
