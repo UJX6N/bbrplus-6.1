@@ -36,7 +36,7 @@ in the `/etc/sysctl.conf` file. &nbsp;&nbsp; ( `fq` is the only recommended pack
 <br/>
 
 ### 1) get convert patch on this repository, use git or direct download
-        (e.g., convert_official_linux-6.0.x_src_to_bbrplus.patch)
+        (e.g., convert_official_linux-6.1.x_src_to_bbrplus.patch)
 
 <br/>
 <br/>
