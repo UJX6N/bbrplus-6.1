@@ -42,14 +42,14 @@ in the `/etc/sysctl.conf` file. &nbsp;&nbsp; ( `fq` is the only recommended pack
 <br/>
 
 ### 2) download officaial linux kernel
-        say 6.2.1       
-            wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.18.tar.xz
+        say 6.1.77       
+            wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.1.77.tar.xz
 
 <br/>
 <br/>
 
 ### 3) extract the tarball & cd extracted directory
-        tar xvf linux-6.1.18.tar.xz && cd linux-6.1.18
+        tar xvf linux-6.1.77.tar.xz && cd linux-6.1.77
 
 <br/>
 <br/>
